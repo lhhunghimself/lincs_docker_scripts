@@ -12,7 +12,7 @@ Three sets of shell scripts have been provided:
 ####2. dockerScripts_cpp_orig
   The python scripts used in the alignment phase have been rewritten in C++ for greater speed and are now multi-threaded. The analysis phase is the same R pipeline. The results are the same when using this or the dockerScripts_orig.
 ####3. dockerScripts_cpp
- Various improvements have been made upon the original implementation. Reads are separated by barcodes before alignment to  and counting to increase speed, reduce memory requirments and allow for greater parallelism. UMIs can now grouped by mapping position as well as the mapped gene for determining whether the read is artifactual
+ Various improvements have been made upon the original implementation. Reads are separated by barcodes before alignment  and counting to increase speed, reduce memory requirments and allow for greater parallelism. UMIs can now grouped by mapping position as well as the mapped gene for determining whether the read is artifactual.
 
 In each directory there are 3 scripts:
 ####1. runAll.sh
